@@ -20,7 +20,7 @@ function MyCard() {
           </div>
         </div>
         <div className="image">
-          <img src="/src/assets/img/gallery/user.png" alt="" />
+          <img src="/assets/img/gallery/user.png" alt="" />
         </div>
       </div>
     </div>

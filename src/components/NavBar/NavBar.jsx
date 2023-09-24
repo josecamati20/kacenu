@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary navbar" >
       <Container>
-        <Navbar.Brand href="#home"><img src="/src/assets/img/icons/logo1.png" alt="" className='footer-img' />DepoFarma</Navbar.Brand>
+        <Navbar.Brand href="#home"><img src="/assets/img/icons/logo1.png" alt="" className='footer-img' />DepoFarma</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

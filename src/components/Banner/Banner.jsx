@@ -14,7 +14,7 @@ function Banner() {
             </div>
         </div>
         
-        <div className="banner-img"><img src='/src/assets/img/illustrations/mobile.png' /></div>
+        <div className="banner-img"><img src='/assets/img/illustrations/mobile.png' /></div>
         
     </div>
   );

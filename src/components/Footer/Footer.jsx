@@ -15,7 +15,7 @@ export default function Footer() {
           <MDBRow className='mt-3 footer-row'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4 footer-col'>
               <h6 className='text-uppercase fw-bold mb-4'>
-               <img src="/src/assets/img/icons/logo1.png" alt="" className='footer-img' />
+               <img src="/assets/img/icons/logo1.png" alt="" className='footer-img' />
                 DepoFarma
               </h6>
               <p>

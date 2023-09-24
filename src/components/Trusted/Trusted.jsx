@@ -7,10 +7,10 @@ function Trusted() {
 
       <h4>Trusted by companies like</h4>
       <div className="logos">
-      <img src='/src/assets/img/gallery/company-1.png' />
-      <img src='/src/assets/img/gallery/company-2.png' />
-      <img src='/src/assets/img/gallery/company-3.png' />
-      <img src='/src/assets/img/gallery/company-4.png' />
+      <img src='/assets/img/gallery/company-1.png' />
+      <img src='/assets/img/gallery/company-2.png' />
+      <img src='/assets/img/gallery/company-3.png' />
+      <img src='/assets/img/gallery/company-4.png' />
 
       </div>
     </div>

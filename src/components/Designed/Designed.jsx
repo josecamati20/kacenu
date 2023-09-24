@@ -9,16 +9,16 @@ function Designed() {
             <p>The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
             <div className="designed-texts-buttons">
             <button variant="primary" size='lg'>
-              <img src="/src/assets/img/illustrations/google-play.png" />
+              <img src="/assets/img/illustrations/google-play.png" />
             </button>
 
             <button variant="primary" size='lg'>
-              <img src="/src/assets/img/illustrations/app-store.png" />
+              <img src="/assets/img/illustrations/app-store.png" />
             </button>
             </div>
         </div>
         
-        <div className="designed-img"><img src='/src/assets/img/illustrations/ultimate-phone.png' /></div>
+        <div className="designed-img"><img src='/assets/img/illustrations/ultimate-phone.png' /></div>
         
     </div>
   );
