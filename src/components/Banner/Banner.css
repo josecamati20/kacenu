@@ -1,0 +1,66 @@
+.banner-container{
+    background-image: url('/src/assets/img/illustrations/hero-bg.png');
+    background-size: cover; /* Scale the image to cover the entire element */
+    background-position: center; /* Center the image within the element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    height: 100vh;
+
+}
+
+.banner-btn{
+ 
+    transition: all 0.5s ease-in-out;
+    background-color:#40975F;
+    color: white;
+    border: 2px solid #40975F;
+}
+.banner-btn:hover{
+    background-color: white;
+    color: #40975F;
+    border: 2px solid #40975F;
+}
+.banner-texts{
+    max-width: 500px;
+}
+.banner-texts h2{
+    font-size: calc(1.4236rem + 2.08318vw);
+    font-weight: 900;
+    line-height: 1;
+}
+.banner-texts p{
+
+        font-size: 1.2rem !important;
+        margin-bottom: 1.8rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem;
+
+}
+
+.banner-texts-buttons{
+    display: flex;
+}
+
+
+
+.banner-img img{
+    max-width: 250px;
+    height: auto;
+    width: 150;
+}
+
+/* Media queries for tablet and desktop screens */
+@media (max-width: 895px) {
+
+    .banner-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}

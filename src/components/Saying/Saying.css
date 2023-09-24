@@ -1,0 +1,46 @@
+.faq-container{
+    background-image: url('/src/assets/img/illustrations/hero-bg.png');
+    background-size: cover; /* Scale the image to cover the entire element */
+    background-position: center; /* Center the image within the element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.faq-container .cards{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.faq-texts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    max-width: 500px;
+    width: 50%;
+}
+.faq-texts h6{
+    font-size: calc(1rem + 2vw);
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+}
+.faq-texts p{
+
+        font-size: 1rem !important;
+        margin-bottom: 1.8rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem;
+
+}
+

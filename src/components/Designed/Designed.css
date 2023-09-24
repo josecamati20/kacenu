@@ -1,0 +1,68 @@
+.designed-container{
+    background-image: url('/src/assets/img/illustrations/hero-bg.png');
+    background-size: cover; /* Scale the image to cover the entire element */
+    background-position: center; /* Center the image within the element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+
+.designed-texts{
+    max-width: 500px;
+    width: 50%;
+}
+.designed-texts h6{
+    font-size: calc(1rem + 2vw);
+    font-weight: 900;
+    line-height: 1;
+}
+.designed-texts p{
+
+        font-size: 1.2rem !important;
+        margin-bottom: 1.8rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem;
+
+}
+
+.designed-texts-buttons{
+    display: flex;
+   
+}
+
+
+.designed-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.designed-img img{
+    max-width: 250px;
+    height: auto;
+    width: 150;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+.designed-texts-buttons button{
+  border: none;
+}
+.designed-texts-buttons button img{
+  width: 120px;
+}
+
+@keyframes flutuar{
+  0% {
+    transform: translateY(-5%); 
+  }
+  100% {
+    transform: translateY(5%); 
+  }
+}

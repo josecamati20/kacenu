@@ -1,0 +1,40 @@
+.cardWhy{
+    background-color: white;
+    padding: 4px;
+    width: 280px;
+    margin:10px;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cardWhy img{
+    width: 4rem;
+    height: auto; 
+    animation: growAndShrink 4s ease-in-out infinite; 
+}
+
+.cardWhy p{
+    text-align: center;
+    font-size: 12px;
+}
+
+@keyframes growAndShrink {
+    0%, 100% {
+      transform: scale(1); /* Initial and final size (no change) */
+    }
+    50% {
+      transform: scale(1.2); /* Scale up by 20% */
+    }
+  }
+  
+  /* Apply the animation to your image element */
+  .image-element {
+    width: 200px; /* Adjust the initial width of your image */
+    height: auto; /* Maintain aspect ratio */
+    animation: growAndShrink 4s ease-in-out infinite; /* 2 seconds for each grow and shrink cycle */
+  }
+  

@@ -1,0 +1,41 @@
+.resource{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resource h4{
+    font-size: calc(1.4236rem + 2.08318vw);
+    font-weight: 900;
+    line-height: 1;
+    width: 200px;
+}
+
+.resource img{
+
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;;
+    width: 400px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+
+}
+
+@media (max-width: 895px) {
+
+    .resource{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resource img{
+
+        width: 400px;
+    
+    }
+    
+
+}

@@ -1,0 +1,20 @@
+.accord{
+    
+    padding: 10px;
+    margin-bottom: 6px;
+    width: 100%;
+    transition: all 0.2s ease-in;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;display: flex;
+    
+}
+.accord div{
+    display: flex;
+    justify-content:space-between ;
+}
+.accord img{
+    width: 15px;
+    height: 15px;
+}

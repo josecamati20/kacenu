@@ -1,0 +1,18 @@
+.cardResource{
+    background-color: white;
+    padding: 4px;
+    width: 220px;
+    margin-bottom:10px;
+    border-radius: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.cardResource img{
+    width: 3rem;
+}
+
+.cardResource p{
+    text-align: justify;
+    font-size: 12px;
+}

@@ -1,0 +1,23 @@
+
+.trusted{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solod red;
+    margin-top: 50px;
+}
+.trusted .logos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trusted .logos img{
+    width: 200;
+    height: auto;
+    margin: 10px;
+}
